@@ -1,2 +1,2 @@
-# Inconspicuous Games
-A totally normal website for hosting games for students
+# The Zone
+A Website that holds games
