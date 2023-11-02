@@ -1,9 +1,9 @@
 <html>
   <body>
     <select name="Select A Rom" id="roms">
-  <option value="marioparty.nds">Mario Party DS</option>
+  <option value="marioparty">marioparty.nds</option>
 </select>
-<button type="button" onclick='var e = document.getElementById("roms"); var result = e.options[e.selectedIndex].value; let text1 = "https://planetsat0rn.github.io/thezone/nds/?file="; window.open(text1.concat("https://planetsat0rn.github.io/thezone/nds/roms/", result),"_self")'>Play Game</button>
+<button type="button" onclick='var e = document.getElementById("roms"); var result = e.options[e.selectedIndex].text; let text1 = "https://planetsat0rn.github.io/thezone/nds/?file="; window.open(text1.concat("https://planetsat0rn.github.io/thezone/nds/roms/", result),"_self")'>Play Game</button>
     <desmond-player id="player"></desmond-player>
     <script src="dist/desmond.min.js"></script>
     <script>
